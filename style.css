@@ -1,0 +1,96 @@
+* {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.todo {
+	width: 250px;
+	height: 100%;
+	margin: 0 auto;
+
+}
+
+.todo h1 {
+	text-align: center;
+	color: #123;
+
+}
+
+.todo h1 span {
+	color: #5682FF
+}
+
+.todo form {
+	
+}
+
+.todo form input {
+	width: 240px;
+	height: 100%;
+	border: 1.5px solid #123;
+	border-radius: 3px;
+	font-weight: bold;
+	margin: 5px auto;
+	padding: 10px 7px;
+	display: block;
+
+}
+
+.todo form #btn {
+	padding: 7px 10px;
+	background: #123;
+	color: white;
+	border: 0;
+	width: 100px;
+	border-top-left-radius: 1px;
+	border-bottom-right-radius: 10px;
+	filter: drop-shadow(0px 0px 5px #666)
+}
+
+.todo form span {
+	font-size: 14px;
+	margin-left: 10px;
+	position: relative;
+	top: 15px;
+	background: #fff;
+	padding: 0 5px;
+	color: #555;
+	font-weight: bold;
+}
+
+.todo .result {
+	text-align: center;
+}
+
+.todo .result .item {
+	width: 240px;
+	height: 100%;
+	margin: 0 auto;
+	transition: .3s;
+}
+
+.todo .result .item .title {
+	text-align: left;
+	font-weight: bold;
+	font-size: 17;
+	color: #123;
+
+}
+
+.todo .result .item .doc {
+	text-align: left;
+	font-size: 14px;
+	margin: 8px;
+	margin-left: 25px;
+	color: #333;
+	font-weight: bold
+}
+
+
+.todo .result .item .remove {
+	display: block;
+	text-align: right;
+	font-size: 14px;
+	margin: 8px;
+	color: #666;
+	font-weight: bold
+}
